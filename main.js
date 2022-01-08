@@ -52,8 +52,8 @@ $(document).ready(function() {
     };
     document.getElementById("first").style.transform = "translateX(" + x.toString() + "px)";
 
-    // ========== max-width > 900px ==========
-    // check if max-width > 900px
+    // ========== max-width > 1140px ==========
+    // check if max-width > 1140px
     const element = document.querySelector(".course-7p");
     const notMobile = getComputedStyle(element).display;
     if(notMobile != "none") {
@@ -125,7 +125,7 @@ $(document).ready(function() {
 });
 
 $(() => {
-  // ========== max-width <= 900px ==========
+  // ========== max-width <= 1140px ==========
   $(".course-1").click(() => {
     if($(".course-1p").hasClass("hidden-mobile")) {
       $(".course-project").addClass("hidden-mobile");
