@@ -29,7 +29,13 @@ body {
   color: rgba(200, 0, 0, 0.7);
   font-size: 1.5rem;
   font-weight: 600;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+.nav-link:hover {
+  color: rgba(200, 0, 0, 1);
+  border-bottom: 0.25rem solid rgba(200, 0, 0, 0.7);
+  padding-bottom: 0.75rem;
 }
 
 #welcome-section {
